@@ -1,13 +1,86 @@
-<!doctype html>
-<html lang="de">
-<head>
-<meta charset="utf-8">
+<!doctype html><html lang="de"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Erik Dörr – AllFinanzCoach</title>
-<link rel="stylesheet" href="styles.css">
-</head>
+<meta name="description" content="Ganzheitliche Finanzstrategie: Absicherung, Vermögensaufbau, Ruhestand – klar strukturiert, messbar umgesetzt.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head>
 <body>
-<h1>Erik Dörr – AllFinanzCoach</h1>
-<p>Moderne Finanzberatung mit System.</p>
-<img src="assets/logo.svg" alt="Logo">
-</body>
-</html>
+<header class="navbar"><div class="container navbar__inner">
+<a class="navbar__brand" href="#"><img src="assets/logo.svg" alt="Erik Dörr AllFinanzCoach Logo"></a>
+<nav class="navbar__links"><a href="#leistungen">Leistungen</a><a href="#prozess">Prozess</a><a href="#warum">Warum wir</a><a href="#kontakt">Kontakt</a></nav>
+<div class="navbar__cta"><a href="#kontakt">Erstgespräch</a></div></div></header>
+<main>
+<section class="hero"><div class="container hero__grid">
+<div>
+  <div class="badges"><span class="badge">Evidenzbasiert</span><span class="badge">Kosten & Nutzen transparent</span><span class="badge">1:1 Begleitung</span></div>
+  <h1>AllFinanz – aber präzise.<br>Strategie statt Zufall.</h1>
+  <p class="lead">Für Menschen, die <strong>Klarheit</strong> und <strong>Ergebnisse</strong> wollen: Absicherung, Vermögensaufbau und Ruhestandsplanung – integriert, strukturiert, messbar.</p>
+  <div class="kpis"><div class="kpi"><strong>360°</strong><span>Analyse & Strategie</span></div><div class="kpi"><strong>100%</strong><span>Transparenz zu Kosten</span></div><div class="kpi"><strong>1:1</strong><span>Persönliche Betreuung</span></div></div>
+</div>
+<div class="form">
+  <h3>Kostenloses Erstgespräch</h3><p class="sub">15 Minuten Fokus auf Ihre Ziele – ohne Verkaufsnebel.</p>
+  <form id="contactForm">
+    <div class="row"><div><label for="vorname">Vorname</label><input id="vorname" name="vorname" required></div>
+         <div><label for="nachname">Nachname</label><input id="nachname" name="nachname" required></div></div>
+    <label for="email">E-Mail</label><input type="email" id="email" name="email" required>
+    <label for="telefon">Telefon (optional)</label><input id="telefon" name="telefon" placeholder="+49…">
+    <label for="ziel">Ihr Fokus</label>
+    <select id="ziel" name="ziel" required>
+      <option value="" disabled selected>Bitte wählen…</option>
+      <option>Vermögensaufbau</option><option>Absicherung & Risiken</option><option>Ruhestandsplanung</option><option>Steueroptimierung</option><option>Immobilien & Finanzierung</option>
+    </select>
+    <label for="nachricht">Kurz Ihr Anliegen</label><textarea id="nachricht" name="nachricht" rows="3" placeholder="Worum geht es konkret?"></textarea>
+    <label><input type="checkbox" id="privacy" required> Ich akzeptiere die <a href="datenschutz.html" target="_blank">Datenschutzerklärung</a>.</label>
+    <button type="submit">Gespräch anfragen</button><p id="formStatus" class="sub" style="margin-top:8px;"></p>
+  </form>
+</div></div></section>
+<section class="section"><div class="container">
+<p class="sub">Vertrauen entsteht durch Struktur und Vergleichbarkeit:</p>
+<div class="trust"><div class="logo">Transparente Kosten</div><div class="logo">Standardisierte Checklisten</div><div class="logo">Marktvergleich</div><div class="logo">Dokumentation</div><div class="logo">Jährliche Reviews</div><div class="logo">Messbare Ergebnisse</div></div>
+</div></section>
+<section class="section" id="leistungen"><div class="container">
+<h2>Leistungen</h2><p class="sub">Modular. Vergleichbar. Klarer Mehrwert.</p>
+<div class="grid-3">
+  <article class="card"><h3>Absicherung mit System</h3><p>Bedarfsprüfung, Priorisierung, Marktvergleich: Berufsunfähigkeit, Haftpflicht, Kranken(zusatz), Risiko-LV. Fokus: sinnvoller Schutz statt Overkill.</p></article>
+  <article class="card"><h3>Vermögensaufbau</h3><p>ETF-Strategien, aktive Fonds mit Evidenz, Rebalancing-Regeln. Kennzahlen: Kostenquote, Risiko, Nettorendite nach Steuern.</p></article>
+  <article class="card"><h3>Ruhestand & Steuern</h3><p>Schichten-Modell, geförderte Lösungen, Entnahmestrategien, Freibeträge & Günstigerprüfung – Simulation statt Bauchgefühl.</p></article>
+</div>
+<div class="cta"><div><h3>Sie wollen Entscheidungen auf Zahlenbasis?</h3><p>Wir liefern die Struktur: Analyse → Strategie → Umsetzung → Betreuung.</p></div>
+<div><a class="button" href="#kontakt">Jetzt Erstgespräch sichern</a></div></div>
+</div></section>
+<section class="section" id="prozess"><div class="container">
+<h2>Unser Prozess</h2><p class="sub">Schnell zum Wesentlichen – ohne Abkürzungen bei der Qualität.</p>
+<div class="steps"><div class="step"><h3>1. Klarheit</h3><p>Ziele, Zeithorizont, Cashflow, Risiken. 360°-Istaufnahme.</p></div>
+<div class="step"><h3>2. Strategie</h3><p>Portfolio-Architektur, Absicherungslogik, steuerliche Ordnung.</p></div>
+<div class="step"><h3>3. Umsetzung</h3><p>Produktkriterien, saubere Anträge, Dokumentation.</p></div>
+<div class="step"><h3>4. Betreuung</h3><p>Jährlicher Check, Rebalancing, Anpassung an Lebensereignisse.</p></div></div>
+</div></section>
+<section class="section" id="warum"><div class="container">
+<h2>Warum Erik Dörr AllFinanzCoach?</h2><p class="sub">Direkt. Evidenzbasiert. Verantwortungsvoll.</p>
+<div class="grid-3"><div class="card"><h3>Transparenz</h3><p>Alle Kosten, Vergütungen und Alternativen offen gelegt. Entscheidungen auf Faktenbasis.</p></div>
+<div class="card"><h3>Struktur</h3><p>Standardisierte Benchmarks & Checklisten. Weniger Zufall, mehr System.</p></div>
+<div class="card"><h3>Verantwortung</h3><p>Protokolle, Dokumentation, regelmäßige Reviews – greifbare Ergebnisse statt Versprechen.</p></div></div>
+</div></section>
+<section class="section" id="kontakt"><div class="container">
+<h2>Kontakt</h2><p class="sub">Antwort werktags innerhalb von 24 Stunden.</p>
+<div class="grid-3" style="grid-template-columns:1.2fr .8fr 1fr;">
+  <div class="card"><h3>Adresse</h3><p>Platzhalterstraße 1<br>35037 Marburg</p><p><strong>E-Mail:</strong> kontakt@example.com<br><strong>Telefon:</strong> +49 000 000000</p></div>
+  <div class="card"><h3>Öffnungszeiten</h3><p>Mo–Fr: 09:00–18:00 Uhr<br>Termine nach Vereinbarung</p></div>
+  <div class="card"><h3>Rechtliches</h3><p><a href="impressum.html">Impressum</a><br><a href="datenschutz.html">Datenschutz</a></p></div>
+</div></div></section>
+</main>
+<footer class="footer"><div class="container cols">
+<div><img src="assets/logo.svg" alt="Logo" style="height:40px;margin-bottom:8px;"><p>Ganzheitliche Finanzplanung für Menschen, die Klarheit und Ergebnisse wollen.</p></div>
+<div><p><strong>Schnellzugriff</strong></p><p><a href="#leistungen">Leistungen</a><br><a href="#prozess">Prozess</a><br><a href="#kontakt">Kontakt</a></p></div>
+<div><p><strong>Recht</strong></p><p><a href="impressum.html">Impressum</a><br><a href="datenschutz.html">Datenschutz</a></p></div>
+</div></footer>
+<script>
+const form=document.getElementById('contactForm');const statusEl=document.getElementById('formStatus');
+form.addEventListener('submit',(e)=>{{e.preventDefault();const data=Object.fromEntries(new FormData(form).entries());
+const ok=data.vorname&&data.nachname&&data.email&&data.ziel&&document.getElementById('privacy').checked;
+if(!ok){{statusEl.textContent='Bitte Pflichtfelder ausfüllen.';return;}}statusEl.textContent='Danke! Anfrage lokal gespeichert. Bitte integrieren Sie Ihren Terminlink oder CRM-Webhook.';
+try{{const key='ed-allfinanzcoach-leads';const leads=JSON.parse(localStorage.getItem(key)||'[]');leads.push({{ts:new Date().toISOString(),...data}});localStorage.setItem(key,JSON.stringify(leads));}}catch(err){{}}form.reset();}});
+</script>
+</body></html>
